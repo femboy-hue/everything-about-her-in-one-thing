@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My HG 🌸</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --accent-color: #ffb7c5; /* soft pink */
+            --text-main: #ffffff;
+            --text-sub: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: var(--text-sub);
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px solid #2a2a2a;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: var(--accent-color);
+            margin-top: 0;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .playlist-btn {
+            display: inline-block;
+            background-color: #1DB954; /* Spotify Green */
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+            transition: transform 0.2s;
+        }
+
+        .playlist-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .playlist-desc {
+            color: var(--text-sub);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .playlist-desc strong {
+            color: var(--text-main);
+        }
+
+        .poem-text {
+            white-space: pre-line;
+            line-height: 1.6;
+            color: #e0e0e0;
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+        .audio-container {
+            margin-bottom: 16px;
+        }
+
+        .audio-container:last-child {
+            margin-bottom: 0;
+        }
+
+        .audio-label {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            margin-bottom: 6px;
+        }
+
+        audio {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>For KitKat 🌸</h1>
+            <p>You are everything I have—my hg, my best friend, and my safest place.</p>
+        </header>
+
+        <!-- SPOTIFY PLAYLIST SECTION -->
+        <div class="section">
+            <h2>🎵 The Soundtrack</h2>
+            <a href="https://open.spotify.com/playlist/3jd1r85VUD6mBXXQi7dQhN?si=PJBtCvgZSnii_y1aJ9fVkA" target="_blank" class="playlist-btn">Open Spotify Playlist</a>
+            <p class="playlist-desc">
+                <strong>The first 4 songs</strong> are for our late roblox nights and the movie nights when we just sit back and chill. <br><br>
+                <strong>The next 2</strong> are for your hype and energy when we're joking around and making each other laugh. <br><br>
+                <strong>The last 3 songs</strong> are for when you're being a comfort to me, staying on call so I can sleep safely, and for the nostalgic vibes.
+            </p>
+        </div>
+
+        <!-- POEM 1 SECTION -->
+        <div class="section">
+            <h2>📜 Late-Night Partner in Crime</h2>
+            <div class="poem-text">We stay up way past the point of being tired,
+            watching movies together and getting wired.
+            Argue over stupid things or what game to play,
+            then end up laughing at the end of the day.
+
+            From roblox lobbies to the random spam,
+            you’re the only one who gets the way I am.
+            A certified headache, but you’re my hg,
+            and there's nobody else that I'd rather see.
+
+            Thanks for not leaving me completely on read,
+            even when I say something stupid instead. 
+            You’re the best friend a guy could ask to find,
+            even if we both occasionally lose our mind.</div>
+        </div>
+
+        <!-- POEM 2 SECTION -->
+        <div class="section">
+            <h2>📜 My Safest Place</h2>
+            <div class="poem-text">Whenever I don't feel good, you're always right there,
+            showing me quietly how much you care.
+            When the world gets too loud and I'm losing my peace,
+            just hearing your voice makes the overthinking cease.
+
+            I love the way you care, even when you're stressed,
+            how you look out for me and want the absolute best.
+            Being on call with you through the dark of the night,
+            makes me feel safe till the sky turns to light.
+
+            You’re more than a friend, you're the best thing I have,
+            the person who keeps me from going off track.
+            No matter the distance, the hours, or grind,
+            a soulmate of a friend I'll never again find.</div>
+        </div>
+
+        <!-- VOICE NOTES SECTION -->
+        <div class="section">
+            <h2>🎙️ Voice Notes</h2>
+            
+            <div class="audio-container">
+                <span class="audio-label">Part 1: The Fun Side, Roblox & Movies</span>
+                <audio controls>
+                    <source src="first part.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audio-container" style="margin-top: 20px;">
+                <span class="audio-label">Part 2: Real Talk, Safe Calls & Appreciation</span>
+                <audio controls>
+                    <source src="part 2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
