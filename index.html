@@ -92,6 +92,34 @@
             color: var(--text-main);
         }
 
+        .spotlight-container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .spotlight-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 1px solid #333;
+        }
+
+        .spotlight-info h3 {
+            margin: 0 0 6px 0;
+            font-size: 1.1rem;
+            color: #ffffff;
+        }
+
+        .spotlight-info p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            line-height: 1.4;
+        }
+
         .poem-text {
             white-space: pre-line;
             line-height: 1.6;
@@ -146,6 +174,21 @@
                 <strong>The next 2</strong> are for your hype and energy when we're joking around and making each other laugh. <br><br>
                 <strong>The last 3 songs</strong> are for when you're being a comfort to me, staying on call so I can sleep safely, and for the nostalgic vibes.
             </p>
+        </div>
+
+        <!-- SONG SPOTLIGHT SECTION -->
+        <div class="section">
+            <h2>✨ Your Song</h2>
+            <div class="spotlight-container">
+                <img src="series.png" alt="Teach You A Lesson" class="spotlight-img">
+                <div class="spotlight-info">
+                    <h3>First And Last</h3>
+                    <p>Teach You A Lesson (Netflix Series OST)</p>
+                    <p style="margin-top: 8px; font-style: italic; color: #ffb7c5;">this song literal reminds me of u completely and it describes u perfectly</p>
+                </div>
+            </div>
+            <!-- Embedded Spotify Web Player -->
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6pWp9w3H2B4uG7gqj23UoF?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
 
         <!-- POEM 1 SECTION -->
